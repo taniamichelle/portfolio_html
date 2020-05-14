@@ -2352,6 +2352,7 @@ ul.actions {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+  justify-content: space-evenly;
   cursor: default;
   list-style: none;
   margin-left: -1em;
