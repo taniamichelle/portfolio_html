@@ -110,6 +110,15 @@ section {
   display: block;
 }
 
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin-top: 1rem; */
+  padding: 1rem;
+  background-color: rgb(103, 111, 119);
+}
+
 body {
   line-height: 1;
 }
@@ -206,7 +215,7 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #49bf9d;
+  color: rgb(164, 167, 167);
   text-decoration: none;
 }
 
@@ -2188,8 +2197,9 @@ input[type="radio"] + label:before {
 }
 
 .image.thumb:hover:before {
-  background: url("images/overlay.png"), url("images/overlay.png");
-  opacity: 1;
+  background: url("images/overlay.png"), url("images/overlay.png"),
+    url("blowhole.jpg");
+  opacity: 0.5;
 }
 
 .image img {
