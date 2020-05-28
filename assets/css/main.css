@@ -359,6 +359,11 @@ pre code {
   text-align: right;
 }
 
+/* Skills */
+.skills-col i {
+  margin: 0.5em;
+}
+
 /* Container */
 
 .container {
@@ -3252,6 +3257,19 @@ body.is-touch .poptrox-popup .closer {
 
 @media screen and (max-width: 736px) {
   /* Basic */
+
+  /* Actions Buttons */
+  .actions {
+    display: flex;
+    flex-flow: column wrap;
+    /* border: 5px solid red; */
+  }
+
+  .actions .button {
+    width: 80% !important;
+    /* border: 2px solid blue; */
+    margin: 1rem;
+  }
 
   h1 {
     font-size: 1.5em;
